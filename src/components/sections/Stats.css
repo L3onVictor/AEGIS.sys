@@ -1,0 +1,25 @@
+.stats-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat-value {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
